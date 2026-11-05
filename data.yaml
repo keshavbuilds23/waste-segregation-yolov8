@@ -1,0 +1,18 @@
+# Dataset configuration for Waste Segregation YOLOv8 model
+# Source: Roboflow Universe (deep-learning-group-project/waste-classificator-mlabt/5)
+# License: CC BY 4.0
+
+path: .  # Root directory of dataset
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['cardboard', 'glass', 'metal', 'organic', 'paper', 'plastic']
+
+roboflow:
+  workspace: deep-learning-group-project
+  project: waste-classificator-mlabt
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deep-learning-group-project/waste-classificator-mlabt/dataset/5
