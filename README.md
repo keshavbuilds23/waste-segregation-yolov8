@@ -216,7 +216,7 @@ Metrics verified from training logs (`results.csv` and model checkpoint `my_wast
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/waste-segregation-yolov8.git
+   git clone https://github.com/keshavbuilds23/waste-segregation-yolov8.git
    cd waste-segregation-yolov8
    ```
 

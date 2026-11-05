@@ -50,6 +50,11 @@ test/
 # Local inference output folder
 output/
 
+# Root loose image duplicates (canonical versions are in assets/sample_images/)
+/*.jpg
+/*.txt
+!requirements.txt
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 

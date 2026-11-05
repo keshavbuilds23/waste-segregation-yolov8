@@ -35,8 +35,7 @@ Because GitHub recommends keeping repositories lightweight, model weights (`*.pt
 ### Option 1: Download from GitHub Releases
 Download `my_waste_model_6_class.pt` from the latest repository release:
 ```bash
-# Example curl command (replace <username> and <tag> with your GitHub repo details)
-curl -L -o weights/my_waste_model_6_class.pt https://github.com/<username>/waste-segregation-yolov8/releases/download/v1.0.0/my_waste_model_6_class.pt
+curl -L -o weights/my_waste_model_6_class.pt https://github.com/keshavbuilds23/waste-segregation-yolov8/releases/download/v1.0.0/my_waste_model_6_class.pt
 ```
 
 ### Option 2: Use Existing Local Checkpoint
